@@ -1,0 +1,50 @@
+
+//responsive
+@function rem($px) {
+    @return $px/16px+0rem ;
+}
+
+//mixin circle
+@mixin circle($width, $color) {
+  width: $width;
+  height: $width;
+  border-radius: $width/2;
+  background-color: $color;
+}
+//mixin big tablets 
+@mixin big_tablets{
+  @media screen and (max-width: $big_tablets){
+      @content;
+  }
+}
+//mixin tablets
+@mixin tablets{
+    @media screen and (max-width: $tablets){
+        @content;
+    }
+}
+
+//mixin medium tablets
+@mixin medium_tablets{
+    @media screen and (max-width: $medium_tablets){
+        @content;
+    }
+}
+
+
+//mixin phones
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+//mixin small_mobile 
+
+@mixin small_mobile {
+  @media screen and (max-width: $small_mobile) {
+    @content;
+  }
+}
+
+

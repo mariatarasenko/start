@@ -1,0 +1,36 @@
+.main_content{
+    height: 100%;
+    min-height: 650px;
+    transition: 1s;
+    will-change: transform;
+    transform: translateZ(0);//выносим все на отдельный компонентный слой  
+ @include tablets(){
+     min-height: auto;
+ }
+}
+
+.section{
+  height: 100%;
+    min-height: rem(650px);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.order_buttom{
+    max-height:rem(38px); 
+    text-align: center;
+    padding: 10px 21px ;
+    border-radius:rem(5px);
+    background-color: $orange;
+    font-size: rem(13px);
+    line-height: 1.42;
+    transition: .5s;
+    &:hover{
+        background-color: darken($orange, 10%);
+	}
+	
+	@include mobile{
+		max-height: 3.375rem;
+	}
+}

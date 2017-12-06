@@ -1,0 +1,21 @@
+.menu_block{
+    max-width:rem(83px);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:5%;
+   }
+
+.figure{
+   
+    width: 0px;
+    height: 0px;
+    margin-top: rem(5px);
+    border-top: 12px solid $yellow;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
