@@ -1,15 +1,12 @@
-// functions
-@import "sass_functions/mixins";
-@import "sass_functions/var";
-@import "sass_functions/extends";
+// // functions
+// @import "sass_functions/*.scss";
 
-//base
-@import "layout/svg_styles";
-@import "layout/adjustment";
-@import "layout/base";
-@import "layout/fonts";
+// //base
+// @import "layout/*.scss";
 
-//elements
+// //elements
+// @import "elements/*.scss";
 
+@import "./common/**/*.scss";
 
 
