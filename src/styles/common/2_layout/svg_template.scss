@@ -1,0 +1,46 @@
+.icon {
+	display: inline-block;
+	max-width: 2rem;
+	max-height: 2rem;
+	fill:currentcolor;
+}
+
+.small_icon{
+	width: rem(20px);
+	height:rem(19px) ;
+}
+
+.bg_icon{
+	z-index: 10;
+    width: 100vw;
+	height: 100%;
+    display: flex;
+}
+
+.my_works__icon{
+    
+	min-width: rem(300px);
+	width: rem(400px);
+	height:rem(171px);
+  margin-top: rem(-15px);
+	
+}
+
+.reviews__icon{
+	width: rem(173px);
+	height: rem(202px);
+}
+
+.icon_footer {
+	display: inline-block;
+	width: 2rem;
+	height: 1rem;
+	fill:currentcolor;
+}
+
+.svg_blog_top{
+	position: absolute;
+    top: 3%;
+    width: 100%;
+    height: rem(250px);
+}

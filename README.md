@@ -1,12 +1,15 @@
-To work with this project, you should have installed
+# This is start of my pag&scss&js projects.
 
-npm 5
-  gulp-cli
+###To work with this project, you should have installed
+
+1. npm (last version)
+2. gulp-cli 
 
 
 
-How to install this project
+###How to install this project
 
-clone this repo
-  npm i
-  gulp
+1. clone this repo
+2. npm i
+3. gulp
+
